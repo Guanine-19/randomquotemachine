@@ -6,7 +6,7 @@ import Spinner from 'react-bootstrap/Spinner';
 class QuoteBox extends React.Component {
   render(){
     return(
-      <div id="quoteTainer">
+      <div id="quoteTainer" class="animated fadeIn">
         <hr />
         <h2 id="text">{this.props.quote.quote}</h2>
         <h3 id="author">{this.props.quote.author}</h3>
